@@ -1,0 +1,50 @@
+{
+  "name": "nova",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Project NOVA — a premium, interactive, futuristic landing page.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.5.20",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "three": "0.185.1",
+    "@react-three/fiber": "9.6.1",
+    "@react-three/drei": "10.7.7",
+    "@react-three/postprocessing": "3.0.4",
+    "postprocessing": "6.39.2",
+    "gsap": "3.15.0",
+    "framer-motion": "12.42.2",
+    "lenis": "1.3.25",
+    "geist": "1.7.2",
+    "react-icons": "5.7.0",
+    "clsx": "2.1.1",
+    "class-variance-authority": "0.7.1",
+    "tailwind-merge": "3.6.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "26.1.1",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.185.1",
+    "tailwindcss": "3.4.19",
+    "postcss": "8.5.19",
+    "autoprefixer": "10.5.3",
+    "eslint": "9.39.5",
+    "eslint-config-next": "15.5.20",
+    "@eslint/eslintrc": "3.3.6",
+    "prettier": "3.9.5",
+    "prettier-plugin-tailwindcss": "0.8.1"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
